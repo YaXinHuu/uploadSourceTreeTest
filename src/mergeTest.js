@@ -1,0 +1,1 @@
+export const newData=[{'a':1}]
