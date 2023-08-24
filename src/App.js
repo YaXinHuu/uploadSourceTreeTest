@@ -43,7 +43,7 @@ export default function App() {
     getDatas();
   },[])
   return <>
-    Hello
+    create remote branch
     <input type="text" value={newData} onChange={(e)=>{setNewData(e.target.value)}} />
     <button type='button' onClick={addNew}>add</button>
     {datas?.map((data)=>{
